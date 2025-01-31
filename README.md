@@ -1,65 +1,55 @@
-Data Management Optimization for Retail with Python
+# Data Management Optimization for Retail with Python
 
-This project focuses on optimizing the data management processes for a retail store by consolidating multiple data sources, identifying errors, and providing actionable insights. The analysis supports executive decision-making by aligning data with business objectives.
+## Overview
+This project focuses on optimizing data management for a retail business by consolidating multiple data sources, identifying and correcting errors, and delivering actionable insights. The analysis helps align data with business goals and supports informed decision-making.
 
-📄 Notebook
-Overview
+## Notebook 📓
+- [Data Consolidation, Cleaning, and Analysis](https://github.com/Melchmanu/Data-Management-Optimization-for-Retail-with-Python/blob/main/Melchiori_Manuel_1_notebook_072024.ipynb)
 
-Retail businesses often struggle with disparate data sources and data quality issues. This project addresses these challenges by:
+## Data Pipeline
+The project is divided into two main phases:
 
-    Phase 1 - Data Consolidation and Cleaning:
-        Aggregating data from ERP, e-commerce exports, and a liaison table.
-        Identifying and resolving errors such as mismatched keys, outliers, and missing values.
+- **Phase 1: Data Consolidation and Cleaning**  
+  - Aggregated data from ERP, e-commerce systems, and a liaison table to unify references.  
+  - Identified data errors such as mismatches, outliers, and input mistakes.  
+  - Proposed solutions to improve data quality and ensure consistency.  
 
-    Phase 2 - Data Analysis:
-        Performing sales and stock analysis (e.g., revenue, top products, 20/80 rule, stock rotation).
-        Identifying outliers in pricing using statistical methods (e.g., Z-Score, interquartile range).
-        Analyzing correlations between key metrics like price, stock levels, and sales.
+- **Phase 2: Data Analysis**  
+  - Performed sales analysis, including revenue by product and overall totals.  
+  - Analyzed stock metrics, including turnover rate and inventory coverage.  
+  - Detected pricing anomalies using boxplots and statistical methods.  
+  - Evaluated correlations between quantitative metrics like price, stock, and sales.  
 
-Files
+## Files
+- `Melchiori_Manuel_1_notebook_072024.ipynb` : Python notebook containing the full analysis pipeline.
+- `Melchiori_Manuel_2_presentation_072024.pptx` : Executive summary and recommendations in a presentation format.
+- `web.xlsx` : E-commerce export with product descriptions and sales data.
+- `erp.xlsx` : ERP system export containing product references, prices, and stock levels.
+- `liaison.xlsx` : Liaison table for matching product references across systems.
 
-    Melchiori_Manuel_1_notebook_072024.ipynb: Python notebook that handles data consolidation, error identification, and data analysis.
-    Melchiori_Manuel_2_presentation_072024.pptx: Executive presentation summarizing findings and actionable recommendations.
-    web.xlsx: E-commerce data export with product descriptions and sales.
-    erp.xlsx: ERP system export including product references, prices, and stock levels.
-    liaison.xlsx: Liaison table for matching references between ERP and e-commerce exports.
+## How to Use
+1. Clone this repository to your local machine.  
+2. Install required Python libraries using `pip install -r requirements.txt`.  
+3. Open the notebook in Jupyter or any compatible IDE to explore the analysis.  
+4. Review the presentation for a concise summary of key insights and suggestions.
 
-How to Use
+## Key Features
+- **Data Cleaning:**  
+  - Resolved 8+ types of data errors, including mismatched keys, outliers, and formatting issues.  
+  - Formalized processes to ensure a GDPR-compliant and consistent database.  
 
-    Clone the repository and download the files.
-    Open the notebook in Jupyter or any compatible IDE to explore the analysis.
-    Review the presentation for a summary of key insights and recommendations.
-    Use the datasets (web.xlsx, erp.xlsx, liaison.xlsx) for further exploration or testing.
+- **Sales Analysis:**  
+  - Identified top products, applied the 20/80 rule, and generated actionable insights.  
+  - Highlighted trends in profitability and sales performance.  
 
-Key Insights
+- **Stock Optimization:**  
+  - Evaluated stock rotation, inventory duration, and pricing anomalies.  
+  - Suggested strategies to enhance inventory management and reduce waste.  
 
-    Data Cleaning:
-        Detected 8+ types of data errors, including mismatches, outliers, and input errors.
-        Recommended improvements to ensure consistent data across systems.
+- **Correlation Analysis:**  
+  - Explored relationships between metrics like price, sales, stock, and margins to uncover patterns.
 
-    Sales Analysis:
-        Identified top-performing products using the 20/80 rule.
-        Highlighted sales trends and profitability insights.
-
-    Stock Optimization:
-        Evaluated stock rotation and months of inventory.
-        Suggested strategies to improve stock management and avoid overstocking.
-
-    Correlations:
-        Analyzed relationships between sales, price, stock, and margins to provide actionable recommendations.
-
-Tools and Skills
-
-    Languages: Python
-    Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scipy
-    Techniques:
-        Data Cleaning and Feature Engineering
-        Outlier Detection (Boxplots, Z-Score)
-        Correlation Analysis
-        Visualization of Insights
-
-About
-
-This project not only optimizes data management processes but also lays the foundation for future initiatives, including data visualization and GDPR-compliant workflows.
-
-Feel free to explore, adapt, and improve the project for your needs!
+## Future Improvements
+- Develop an interactive data visualization dashboard for real-time insights.  
+- Automate the data consolidation process for scalability.  
+- Enhance predictive models to forecast sales and stock trends.  
