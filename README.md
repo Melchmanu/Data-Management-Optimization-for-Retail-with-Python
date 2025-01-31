@@ -4,7 +4,8 @@
 This project focuses on optimizing data management for a retail business by consolidating multiple data sources, identifying and correcting errors, and delivering actionable insights. The analysis helps align data with business goals and supports informed decision-making.
 
 ## Notebook 📓
-- [Data Consolidation, Cleaning, and Analysis](https://github.com/Melchmanu/Data-Management-Optimization-for-Retail-with-Python/blob/main/Melchiori_Manuel_1_notebook_072024.ipynb)
+- [Data Consolidation, Cleaning, and Analysis](https://github.com/Melchmanu/Data-Management-Optimization-for-Retail-with-Python/blob/main/Melchiori_Manuel_1_notebook_072024.ipynb)  
+- [Presentation of Insights and Recommendations](https://github.com/Melchmanu/Data-Management-Optimization-for-Retail-with-Python/blob/main/Melchiori_Manuel_2_presentation_072024.pdf)
 
 ## Data Pipeline
 The project is divided into two main phases:
